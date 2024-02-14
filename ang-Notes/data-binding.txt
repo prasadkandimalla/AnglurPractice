@@ -15,3 +15,15 @@ i. one way data binding:
      Task1: in template print count value from component and on click of button in template, value of count should increase
      Task2: In your counter, on top right print a flag value which shows even/odd based on the value of counter
      Hint: i use ternary operator
+
+     Two-way Data Binding:
+      Two way data binding means data should be sent from component to template and template to component at a time
+
+      we will achieve two way data binding by ngModel with like this "[(ngModel)]
+
+      steps:
+      syntax:<input [(ngModel)]="variable">, u will write variable in ts file(component file).
+      To make ngModel work , import FormsModule in app.module.ts and write it in its imports
+
+      Task3:
+      create a simple form with email and password and a button and print email and password immediately when we type and also show alert "successsfully login" when click on button
