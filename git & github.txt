@@ -3,6 +3,14 @@ https://git-scm.com/downloads
 windows>64-bit
 after installing check git -v
 "https://github.com/prasad-bigdp/angular-11"
+Github is just a online code storage like gdrive. u can also use bitbucket,gitlab,aws.
+
+step1:  download git from https://git-scm.com/downloads and install it and check the version by "git -v" in cmd
+step2: create github account
+step3: go to visual studio code and login into github
+step4: setup configs in vscode
+git config --global user.email "youremail" 
+git config --global user.name "username" 
 
 steps:
 1:git init
