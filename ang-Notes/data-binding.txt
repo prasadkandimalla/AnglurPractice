@@ -1,3 +1,4 @@
+//Prasad Test
 Data binding:
 The transmission of Data from component to template or Template to Component or both
 Angular supports one way and two way data binding
